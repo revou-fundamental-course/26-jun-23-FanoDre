@@ -1,3 +1,36 @@
-h1 {
-    color: red;
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+    height: 200vh;
+}
+
+.main > .container {
+    width: 80%;
+}
+
+.section > .container {
+    width: 50%;
+}
+
+.textImg {
+    padding-top: 10vh;
+    color: black;
+}
+
+.main > .container > .row > #col2 {
+    background-color: rgb(246, 244, 244);
+    height: 125vh;
+}
+
+.user1 {
+    display: flex;
+    
+}
+
+.nameUser {
+    margin-top: 15px;
+    margin-left: 20px;
 }

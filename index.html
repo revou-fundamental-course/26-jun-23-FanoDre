@@ -3,10 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revou Assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>E-Groceries</title>
 </head>
 <body>
-    <h1>Hello!</h1>
-    <p>Hallo Nama Saya Alfanoel Audrey</p>
+    <div class="navbar border-bottom border-dark">
+        <div class="container">
+          <a class="navbar-brand text-dark" href="#">
+            <img src="/img/logo.png" alt="" width="30">
+            E-Groceries
+          </a>
+          <ul class="nav nav-tabs border-dark">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="ourpackage.html">Our Package</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="callus.html">Call Us</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container text-center mt-5">
+            <h1>Top Rated E-Groceries Shop in Indonesian</h1>
+            <p class="text-secondary">
+                Every Day with best ingredients
+            </p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col">
+                    <img src="/img/article.jpg" class="article rounded-3" alt="" width="600" height="400">
+                    <p class="mt-4 text-secondary text-center"><i>"setiap hari beli sayur buah yang fresh disini."</i></p>
+                    
+                    <div class="user1 mt-5 ms-5">
+                        <img src="/img/userlogo.png" alt="" width="70" height="70">
+                        <p class="nameUser"><b>Florence Hughes</b><br><i class="text-secondary">Ibu Rumah Tangga, 28</i></p>
+                    </div>
+                </div>
+                <div id="col2" class="col rounded-3 p-5">
+                    <h4 class="text-start">Contact Us</h4>
+                    <p class="text-start text-secondary">Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+                    <br>
+                    <br>
+                    <form>
+                        <div>
+                            <label for="fullName" class="form-label">Your Name:</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="First and last name">
+                        </div>
+                        <div class="mt-4">
+                            <label for="email" class="form-label">Email Address:</label>
+                            <input type="email" class="form-control" id="email" placeholder="example@email.com" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mt-4">
+                            <label for="phoneNumber" class="form-label">Phone Number:</label>
+                            <input type="text" class="form-control" id="phoneNumber" placeholder="0822xxxxxxxx" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mt-4">
+                            <label for="pesan">Pesan</label>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="pesan" style="height: 50px"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100 mt-4">SEND</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <h5>Use this space to provide users with more information about your offer. Consider it a follow-up to your headline and explain the benefits of your service or product.</h5>
+                    <div class="user1 mt-4">
+                        <img src="/img/userlogo.png" alt="" width="70" height="70">
+                        <p class="nameUser text-secondary">Your first feature, written in the form of a benefit statement.</p>
+                    </div>
+                    <div class="user1 mt-4">
+                        <img src="/img/userlogo.png" alt="" width="70" height="70">
+                        <p class="nameUser text-secondary">Your second feature, written in the form of a benefit statement.</p>
+                    </div>
+                    <div class="user1 mt-4">
+                        <img src="/img/userlogo.png" alt="" width="70" height="70">
+                        <p class="nameUser text-secondary">Your third feature, written in the form of a benefit statement.</p>
+                    </div>
+                </div>
+                
+                <div class="col">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
