@@ -1,60 +1,32 @@
-body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body, header, section, main {
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.main {
-    height: 200vh;
+header {
+    font-size: 20px;
 }
 
-.main > .container {
-    width: 80%;
+#navbarNav {
+    justify-content: end;
 }
 
-.section > .container {
-    width: 50%;
+section > .container > h4 {
+    color: grey;
 }
 
-.textImg {
-    padding-top: 10vh;
-    color: black;
+#article {
+    border-radius: 30px;
 }
 
-.main > .container > .row > #colMain {
-    display: block;
-    background-color: rgb(246, 244, 244);
-    height: 100vh;
-    margin-left: 5vh;
+.carousel-caption {
+    text-shadow: 1px 1px black;
 }
 
-.user1 {
-    display: flex;
-    
+#col2 > .container {
+    border-radius: 30px;
+    width: 45vh;
 }
 
-.nameUser {
-    margin-top: 15px;
-    margin-left: 20px;
-}
-
-#ourpackage {
-    background-color: rgb(246, 244, 244);
-    padding: 10vh 0 15vh 0 ;
-}
-
-#contentOurPackage {
-    height: 100vh;
-    padding-right: 30vh;
-}
-
-#contentOurPackage > .row > #colPackage1, #colPackage2, #colPackage3 {
-    margin-left: 25vh;
-}
-
-#contentOurPackage > #row1 ,#row2 {
-    margin-top: 20vh;
-}
-
-.contentPackageLogo {
-    display: flex;
+#col2 > .container > h6 {
+    color: grey;
 }
