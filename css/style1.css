@@ -1,0 +1,32 @@
+body, header, section, main {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    font-size: 20px;
+}
+
+#navbarNav {
+    justify-content: end;
+}
+
+section > .container > h4 {
+    color: grey;
+}
+
+#article {
+    border-radius: 30px;
+}
+
+.carousel-caption {
+    text-shadow: 1px 1px black;
+}
+
+#col2 > .container {
+    border-radius: 30px;
+    width: 45vh;
+}
+
+#col2 > .container > h6 {
+    color: grey;
+}

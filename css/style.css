@@ -20,9 +20,11 @@ body {
     color: black;
 }
 
-.main > .container > .row > #col2 {
+.main > .container > .row > #colMain {
+    display: block;
     background-color: rgb(246, 244, 244);
-    height: 125vh;
+    height: 100vh;
+    margin-left: 5vh;
 }
 
 .user1 {
@@ -33,4 +35,26 @@ body {
 .nameUser {
     margin-top: 15px;
     margin-left: 20px;
+}
+
+#ourpackage {
+    background-color: rgb(246, 244, 244);
+    padding: 10vh 0 15vh 0 ;
+}
+
+#contentOurPackage {
+    height: 100vh;
+    padding-right: 30vh;
+}
+
+#contentOurPackage > .row > #colPackage1, #colPackage2, #colPackage3 {
+    margin-left: 25vh;
+}
+
+#contentOurPackage > #row1 ,#row2 {
+    margin-top: 20vh;
+}
+
+.contentPackageLogo {
+    display: flex;
 }
